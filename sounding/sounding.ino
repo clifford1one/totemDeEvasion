@@ -27,7 +27,7 @@ void setup()
   }
   
   myDFPlayer.volume(30);
-  myDFPlayer.play(1);
+  myDFPlayer.play(1,1);
 }
 
 void loop()
