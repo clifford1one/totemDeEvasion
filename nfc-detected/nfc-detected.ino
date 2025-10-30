@@ -26,13 +26,13 @@ void loop() {
     if (state == HIGH) {
       Serial.println("Gracias, buen viaje!");
       digitalWrite(pinGreen, HIGH);
-      delay(2000);
+      delay(1800);
       digitalWrite(pinGreen, LOW);
 
     } else {
       Serial.println("Saldo insuficiente");
       digitalWrite(pinRed, HIGH);
-      delay(2000);
+      delay(1800);
       digitalWrite(pinRed, LOW);
 
     }
