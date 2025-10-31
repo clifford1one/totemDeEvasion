@@ -3,9 +3,9 @@
 
 #define RST_PIN 9
 #define SS_PIN 10
-int togglePin=2;
-int pinRed=3;
-int pinGreen=4;
+int togglePin = 2;
+int pinRed = 3;
+int pinGreen = 4;
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
@@ -32,8 +32,8 @@ void setup() {
   pinMode(pinGreen, OUTPUT);
 
 
- //audio
- 
+  //audio
+
 #if (defined ESP32)
   FPSerial.begin(9600, SERIAL_8N1, D3, D2);
 #else
@@ -44,8 +44,8 @@ void setup() {
 
   if (!myDFPlayer.begin(FPSerial, true, true)) {
     Serial.println("Error: Revisar conexion y tarjeta SD");
-    while(true) delay(0); 
-}
+    while (true) delay(0);
+  }
 }
 
 void loop() {
@@ -54,7 +54,7 @@ void loop() {
 
     if (state == HIGH) {
       Serial.println("Gracias, buen viaje!");
-  myDFPlayer.play(1);
+      myDFPlayer.play(1);
 
       digitalWrite(pinGreen, HIGH);
       delay(1800);
@@ -63,12 +63,11 @@ void loop() {
 
     } else {
       Serial.println("Saldo insuficiente");
-  myDFPlayer.play(2);
+      myDFPlayer.play(2);
 
       digitalWrite(pinRed, HIGH);
       delay(1800);
       digitalWrite(pinRed, LOW);
-
     }
 
     mfrc522.PICC_HaltA();
