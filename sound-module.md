@@ -21,3 +21,5 @@ el sonido que suena cuando el saldo es insuficiente lo saqué de [este youtube s
 depués de muchos intentos fallidos, leí que con tarjetas microSD de 32gygabytes era poco estable, asi que me robé la microSD del celular de mi awela, y le puse la que había comprado de 32GB.
 
 logre que funcionara con [este tutorial](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299#Connection_Diagram)
+
+![pinout del módulo](./imagenes/mp3-pinout.png)
