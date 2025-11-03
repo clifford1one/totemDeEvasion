@@ -59,8 +59,12 @@ void loop() {
       digitalWrite(pinGreen, HIGH);
       delay(1800);
       digitalWrite(pinGreen, LOW);
+<<<<<<< Updated upstream
 
 
+=======
+ 
+>>>>>>> Stashed changes
     } else {
       Serial.println("Saldo insuficiente");
   myDFPlayer.play(2);
