@@ -1,6 +1,8 @@
 # totemDeEvasion
 
-proyecto diseñado y fabricado en el marco de Halloween 2025. Consiste en la personificación de un ente imaginario, que representa el proceso de pagar el pasaje al subirse a las micros del sistema red.
+![imagen de presentación del totem](./imagenes/totem-fotoWena.png)
+
+proyecto diseñado y fabricado por santiagoClifford en el marco de Halloween 2025. Consiste en la personificación de un ente imaginario, que representa el proceso de pagar el pasaje al subirse a las micros del sistema red.
 
 ## especificaciones
 
@@ -24,6 +26,8 @@ proyecto diseñado y fabricado en el marco de Halloween 2025. Consiste en la per
 | filamento negro | pet-g artillery | 85g | https://afel.cl/products/filamento-petg-negro-artillery-1-75mm-1kg | $10.000 | $850 |
 | cautín | MK0376 | 1 | https://www.mercadolibre.cl/cautin-tipo-lapiz-para-soldar-40-watts-makawa-mk-0376/p/MLC24329921 | $3.200 | $3.200 |
 | estaño | Rollo soldadura | 2g | https://mcielectronics.cl/shop/product/rollo-soldadura-de-estano-1-0mm-30g/ | $3.000 | $200 |
+| resistencias | 1k | 4 |  |  |  |
+| resistencias | 10k | 1 |  |  |  |
 | TOTAL |  |  |  |  |  |
 
 
@@ -46,5 +50,3 @@ proyecto diseñado y fabricado en el marco de Halloween 2025. Consiste en la per
 ![esquemático del cableado](./imagenes/sch-totemDeEvasion.png)
 
 esquemático hecho en kicad. Los símbolos del módulo MP3, del lector NFC y del arduino fueron hechos por mí, usando la herramienta de edición de símbolos de kicad.
-
-
