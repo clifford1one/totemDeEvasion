@@ -76,7 +76,7 @@ logre que funcionara con [este tutorial](https://wiki.dfrobot.com/DFPlayer_Mini_
 
 ## interruptor
 
-####### código
+###### código
 
 estas son las líneas de código necesarias para que el estado del toggle defina el output.
 
